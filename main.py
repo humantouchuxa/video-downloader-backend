@@ -20,7 +20,7 @@ def get_info():
     ydl_opts = {
         'quiet': True,
         'no_warnings': True,
-        'format': 'best[ext=mp4]/best',
+        'format': 'best/bestvideo+bestaudio',
         'noplaylist': True,
         'extractor_args': {
             'youtube': {
